@@ -6,7 +6,6 @@ import os
 import sys
 import base64
 from itertools import izip, cycle
-import zlib
 
 banner = '''
 \033[32m                                   
@@ -121,7 +120,7 @@ if __name__ == '__main__':
     try:
         
         #if len(sys.argv)>4:
-            #print("usage : %s --help" % (sys.argv[0]))
+            #print("usage : %s" % (sys.argv[0]))
             #print("        %s template_encrypt_file <filename> <xor_key> <new_template_name>" % (sys.argv[0]))
             #print("        %s encrypt_file <filename> <xor_key> <new_template>" % (sys.argv[0]))
             #print("        %s decrypt_file <filename> <xor_key> <outputfile>" % (sys.argv[0]))
